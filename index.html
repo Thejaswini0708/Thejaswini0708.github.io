@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>John Doe Photography Portfolio</title>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#videos">Videos</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Header Section -->
+    <header id="home">
+        <h1>John Doe - Photography</h1>
+        <p>Capturing moments that last a lifetime</p>
+    </header>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <!-- Your portfolio images go here -->
+        <div class="portfolio-item">
+            <img src="photo-1.jpg" alt="Portrait Photo">
+            <p>Description of a beautiful portrait photo.</p>
+        </div>
+        <div class="portfolio-item">
+            <img src="photos-2.jpg" alt="Landscape Photo">
+            <p>Description of a stunning landscape photo.</p>
+        </div>
+        <!-- Add more portfolio items as needed -->
+    </section>
+
+    <!-- Videos Section -->
+    <section id="videos">
+        <h2>Videos</h2>
+        <!-- Embed video links or use a video player -->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/uYPbbksJxIg" frameborder="0" allowfullscreen></iframe>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hi, I'm John Doe, a passionate photographer dedicated to capturing the beauty of the world through my lens.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2023 John Doe Photography. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
